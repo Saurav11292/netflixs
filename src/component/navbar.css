@@ -1,0 +1,23 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    transition-timing-function: ease-in;
+    transition: all 500ms;
+}
+.nav_black{
+    background-image: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.74), #111);
+}
+.nav_logo img{
+    padding: 20px;
+    width: 100px;
+    object-fit: contain;
+}
+.nav_avtar img{
+    padding: 20px;
+    width: 50px;
+    object-fit: contain;
+}
